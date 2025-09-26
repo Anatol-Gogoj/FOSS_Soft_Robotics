@@ -1,2 +1,2 @@
-# FOSS_Soft_Robotics
-Free &amp; Open Source Software: Soft Robotics Textbook Resource
+# FOSS Soft Robotics
+Free &amp; Open Source Software: A Soft Robotics Resource
