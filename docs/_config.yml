@@ -1,0 +1,16 @@
+title: "FOSS Soft Robotics"
+description: "Free & open resources for soft robotics."
+theme: minima
+
+# Top nav: these files (at docs/ root) will appear as header links
+header_pages:
+  - projects.md
+  - research.md
+  - blog.md
+  - media.md
+  - contact.md
+
+# Useful options
+markdown: kramdown
+kramdown:
+  input: GFM
