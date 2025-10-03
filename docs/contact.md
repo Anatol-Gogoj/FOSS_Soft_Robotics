@@ -4,4 +4,5 @@ title: Contact
 permalink: /contact/
 ---
 
-Open an issue on GitHub or reach out via the repository README.
+- Open a GitHub Issue (preferred for bugs/features)
+- Email: <!-- add -->

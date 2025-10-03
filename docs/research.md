@@ -4,9 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-## Themes
-<!-- e.g., DEAs in extreme environments, materials discovery, etc. -->
-
 ## Notes & Summaries
 <ul>
 {%- assign pages = site.pages | where: "dir", "/research/" | sort: "title" -%}
