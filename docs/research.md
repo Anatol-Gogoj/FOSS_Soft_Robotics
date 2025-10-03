@@ -4,11 +4,15 @@ title: Research
 permalink: /research/
 ---
 
-A collection of research notes and summaries:
+## Themes
+<!-- e.g., DEAs in extreme environments, materials discovery, etc. -->
 
+## Notes & Summaries
 <ul>
-{%- assign pages = site.pages | where_exp: "p", "p.url contains '/research/' and p.url != '/research/'" | sort: "title" -%}
+{%- assign pages = site.pages | where: "dir", "/research/" | sort: "title" -%}
 {%- for p in pages -%}
+  {%- unless p.url == "/research/" -%}
   <li><a href="{{ p.url | relative_url }}">{{ p.title | default: p.url }}</a></li>
+  {%- endunless -%}
 {%- endfor -%}
 </ul>

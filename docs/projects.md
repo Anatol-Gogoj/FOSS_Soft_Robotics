@@ -4,11 +4,15 @@ title: Projects
 permalink: /projects/
 ---
 
-Below are all project pages living under `/projects/`:
+## Overview
+<!-- What counts as a "project"? Expected outcomes? -->
 
+## All Projects
 <ul>
-{%- assign pages = site.pages | where_exp: "p", "p.url contains '/projects/' and p.url != '/projects/'" | sort: "title" -%}
+{%- assign pages = site.pages | where: "dir", "/projects/" | sort: "title" -%}
 {%- for p in pages -%}
+  {%- unless p.url == "/projects/" -%}
   <li><a href="{{ p.url | relative_url }}">{{ p.title | default: p.url }}</a></li>
+  {%- endunless -%}
 {%- endfor -%}
 </ul>
