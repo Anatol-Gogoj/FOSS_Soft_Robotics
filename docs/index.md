@@ -3,4 +3,4 @@ layout: home
 title: Home
 ---
 
-Welcome! Use the tabs above to explore Projects, Research, Blog, and Media.
+Welcome! Use the tabs above to explore **Projects**, **Research**, **Blog**, **Media**, and **Contact**.

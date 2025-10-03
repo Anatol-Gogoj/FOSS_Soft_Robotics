@@ -4,9 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-## Overview
-<!-- What counts as a "project"? Expected outcomes? -->
-
 ## All Projects
 <ul>
 {%- assign pages = site.pages | where: "dir", "/projects/" | sort: "title" -%}
