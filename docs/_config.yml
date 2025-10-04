@@ -1,11 +1,12 @@
 title: "FOSS Soft Robotics"
 description: "Free & open resources for soft robotics."
 theme: minima
-# Important for project sites:
-url: "https://anatol-gogoj.github.io"
-baseurl: "/FOSS_Soft_Robotics"
 
-# Show these as top navigation tabs:
+# Custom domain setup (apex)
+url: "https://soft-robotics.com"
+baseurl: ""   # empty for apex domain
+
+# Show these as top navigation tabs (files must be in /docs)
 header_pages:
   - about.md
   - projects.md
@@ -17,3 +18,4 @@ header_pages:
 markdown: kramdown
 kramdown:
   input: GFM
+
