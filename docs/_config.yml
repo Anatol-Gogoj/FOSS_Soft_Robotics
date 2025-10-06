@@ -3,8 +3,8 @@ description: "Free & open resources for soft robotics."
 theme: minima
 
 # Custom domain setup (apex)
-url: "https://soft-robots.com"  # match the CNAME
-baseurl: ""  # empty for apex domain
+url: "https://soft-robots.com" # match the CNAME
+baseurl: "" # empty for apex domain
 
 # Show these as top navigation tabs (files must be in /docs)
 header_pages:
@@ -18,4 +18,3 @@ header_pages:
 markdown: kramdown
 kramdown:
   input: GFM
-
