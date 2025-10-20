@@ -1,10 +1,10 @@
-name: MyST GitHub Pages Deploy
+﻿name: MyST GitHub Pages Deploy
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 env:
-  BASE_URL: /${{ github.event.repository.name }}
+  BASE_URL: /   # important for soft-robots.com
 
 permissions:
   contents: read
@@ -31,6 +31,9 @@ jobs:
         run: npm install -g mystmd
       - name: Build site
         run: myst build --html
+      # Optional: also ship CNAME (you may omit if Pages settings already has your custom domain)
+      - name: Write CNAME
+        run: echo "soft-robots.com" > _build/html/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

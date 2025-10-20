@@ -1,7 +1,5 @@
----
-layout: page
+﻿---
 title: Media
-permalink: /media/
 ---
 
 ## All Media Pages

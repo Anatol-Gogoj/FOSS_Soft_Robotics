@@ -22,3 +22,12 @@ Thumbs.db
 # Env
 .env
 .env.*
+
+# MyST build outputs
+_build
+
+FOSS_Soft_Robotics/
+
+
+docs/vendor/
+
