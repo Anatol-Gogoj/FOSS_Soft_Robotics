@@ -9,6 +9,13 @@ project:
     - file: README.md
     - title: About
       file: docs/about.md
+    - title: Modules
+      file: docs/modules.md
+      sections:
+        - file: docs/modules/01-actuators-101.md
+        - file: docs/modules/02-fabrication-basics.md
+        - file: docs/modules/03-modeling-control.md
+        - file: docs/modules/04-materials-data.md
     - title: Projects
       file: docs/projects.md
       sections:
