@@ -2,35 +2,43 @@ version: 1
 
 site:
   title: "FOSS Soft Robotics"
+  theme: book-theme
 
 project:
   license: MIT
   toc:
     - file: README.md
+
     - title: About
       file: docs/about.md
+
     - title: Modules
-      file: docs/modules.md
+      file: docs/modules/index.md
       sections:
         - file: docs/modules/01-actuators-101.md
         - file: docs/modules/02-fabrication-basics.md
         - file: docs/modules/03-modeling-control.md
         - file: docs/modules/04-materials-data.md
+
     - title: Projects
-      file: docs/projects.md
+      file: docs/projects/index.md
       sections:
         - file: docs/projects/example.md
+
     - title: Research
-      file: docs/research.md
+      file: docs/research/index.md
       sections:
         - file: docs/research/example.md
+
     - title: Blog
-      file: docs/blog.md
+      file: docs/blog/index.md
       sections:
         - file: docs/blog/welcome.md
+
     - title: Media
-      file: docs/media.md
+      file: docs/media/index.md
       sections:
-        - file: docs/media/example.md
+        - file: docs/media/media.md
+
     - title: Contact
       file: docs/contact.md
