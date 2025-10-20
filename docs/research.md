@@ -1,7 +1,5 @@
----
-layout: page
+﻿---
 title: Research
-permalink: /research/
 ---
 
 ## Notes & Summaries
