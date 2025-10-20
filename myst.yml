@@ -1,22 +1,29 @@
 version: 1
 
 site:
-    title: "FOSS Soft Robotics"
-    # theme: book-theme   # optional
+  title: "FOSS Soft Robotics"
 
 project:
-    license: MIT
-    toc:
-        - file: README.md
-        - title: About
-          file: docs/about.md
-        - title: Projects
-          file: docs/projects.md
-        - title: Research
-          file: docs/research.md
-        - title: Blog
-          file: docs/blog.md
-        - title: Media
-          file: docs/media.md
-        - title: Contact
-          file: docs/contact.md
+  license: MIT
+  toc:
+    - file: README.md
+    - title: About
+      file: docs/about.md
+    - title: Projects
+      file: docs/projects.md
+      sections:
+        - file: docs/projects/example.md
+    - title: Research
+      file: docs/research.md
+      sections:
+        - file: docs/research/example.md
+    - title: Blog
+      file: docs/blog.md
+      sections:
+        - file: docs/blog/welcome.md
+    - title: Media
+      file: docs/media.md
+      sections:
+        - file: docs/media/example.md
+    - title: Contact
+      file: docs/contact.md
