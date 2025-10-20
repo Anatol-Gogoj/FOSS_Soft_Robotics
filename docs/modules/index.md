@@ -1,8 +1,8 @@
 ---
-title: Projects
+title: Modules
 ---
 
-## All Projects
+## All Modules
 
 - [Module 01](01-actuators-101.md)
 - [Module 02](02-fabrication-basics.md)
