@@ -4,7 +4,7 @@ on:
     branches: [ main ]
 
 env:
-  BASE_URL: /   # important for soft-robots.com
+  BASE_URL: /
 
 permissions:
   contents: read
