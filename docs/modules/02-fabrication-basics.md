@@ -1,3 +1,7 @@
+---
+title: Module 02: Fabrication Basics
+---
+
 ## Module 02: Fabrication Basics
 
 ### Molds
