@@ -1,5 +1,5 @@
 ---
-title: Module 01: Actuators 101
+title: "Module 01: Actuators 101"
 ---
 
 ## Module 01: Actuators 101
