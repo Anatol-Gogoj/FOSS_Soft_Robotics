@@ -1,5 +1,5 @@
 ---
-title: Module 03: Modeling & Control
+title: "Module 03: Modeling & Control"
 ---
 
 ## Module 03: Modeling & Control
